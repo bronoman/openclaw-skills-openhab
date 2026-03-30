@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is an integration skill for OpenClaw, designed specifically for read-only interactions with OpenHAB version 4.3.1 servers. It allows querying data such as item states, events, rules, or sensor readings from a local/home network OpenHAB instance (e.g., running on a Raspberry Pi). 
+This is an integration skill for OpenClaw, designed specifically for read-only interactions with OpenHAB version 4.3.1 smart home servers. You need a running openHAB server to properly use this skill in openClaw. The skill is only allows querying data such as item states, events, rules, or sensor readings from a local/home network OpenHAB instance (e.g., running on a Raspberry Pi).
 
 The skill emphasizes security and minimalism: it restricts operations to GET requests only (no writes or controls), prompts for credentials each time, and requires explicit user approvals for executions. It was created using OpenClaw's skill-creator tool, based on the official OpenHAB REST API documentation.
 
